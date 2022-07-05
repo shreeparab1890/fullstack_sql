@@ -1,0 +1,53 @@
+.styled-table thead tr {
+  background-color: cadetblue;
+  color: white;
+  text-align: left;
+  align-items: center;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid white;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: white;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid aquamarine;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: aqua;
+}
+
+.btn-delete {
+  background-color: crimson;
+}
+
+.btn-view {
+  background-color: burlywood;
+}
+
+.btn-contact {
+  background-color: brown;
+  margin-bottom: 10px;
+}
